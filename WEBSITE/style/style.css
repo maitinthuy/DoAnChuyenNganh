@@ -1,0 +1,389 @@
+/*css tin tuc*/
+#tintuctinkhuyenmai
+{
+	
+	width:1000px;
+	margin:auto;
+	margin-top:10px;
+	height:100%;;
+	clear:both;
+	margin-bottom:0%;	
+}
+#tintuc
+{
+	height:100%;
+	width:35%;
+	float:left;
+	background-color:#09C;	
+}
+#tinthitruongkhuyenmai
+{
+	height:100%;
+	width:60%;
+	float:right;
+	
+}
+#tinthitruong
+{
+	background-color:#CCC;
+	height:100%;
+}
+#khuyenmai
+{
+	background-color:#CCC;
+	height:100%;
+	margin-top:20px;
+	margin-bottom:10px;;
+	clear:both;
+}
+#tinchinh{background-color:#66C; clear:both; width:100%;}
+#ima{ width:39%; float:left; margin-left:1%; margin-bottom:1%;  }
+#nd{ width:59%; float:right; margin:auto;}
+#tinlienquan{width:100%; height:100%;  clear:both;;}
+#imaKM{ width:39%; float:right; margin-right:1%;   }
+#ndKM{ width:59%; float:left; margin:auto; margin-left:1%; }
+#li{margin-left:1%; list-style:inside; margin-top:10px; margin-bottom:10px;}
+/*css tin tuc*/
+
+#noidungngan
+{	
+		position: absolute;
+		bottom:0px;
+		
+		height: 0px;
+		text-align: center;
+		background: -webkit-linear-gradient(top,rgba(0,0,0,1), rgba(0,0,0,0.3));
+		background: -moz-linear-gradient(top,rgba(0,0,0,1), rgba(0,0,0,0.3));
+		background: -o-linear-gradient(top,rgba(0,0,0,1), rgba(0,0,0,0.3));
+		background: -ms-linear-gradient(top,rgba(0,0,0,1), rgba(0,0,0,0.3));
+		transition:height 1s, opacity 1s;
+		color:#FFF;
+		width:100%;
+}
+#hinhanh:hover #noidungngan
+{
+	height: 30%;
+	width:100%;
+}
+#noidungngan p{color:#FFF;}
+#hinhanh
+{
+	position: relative;
+	overflow:hidden; 	
+	
+	width:240px;
+	height:250px;
+	background-color:#0FF;
+	float:left;
+	border:double;
+	border-color:#69C;
+	margin-left:70px;
+	color:#F00;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#hinhanh:hover
+{
+	border-color:#F0F;
+	background-color:#60F;
+}
+#tenloai
+{
+	width:100%;
+	height:30px;
+	float:left;
+	color:#FFF;
+	text-align:center;
+	font-size:60px;
+		
+}
+#tenloai a:hover{color:#F00;}
+
+/*css nút tìm kiếm*/
+.search_box {
+	float: right;
+	width: 23%;
+	margin-right: 4%;
+	border: 1px solid #FFFFFF;
+	position: relative;
+	border-radius: 2px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	margin-top:1px;
+}
+.search_box form input[type="text"] {
+	-webkit-appearance: none;
+	padding: 6px 16px;
+	outline: none;
+	color: #ffffff;
+	background: none;
+	border: none;
+	width: 75%;
+	line-height: 1.7em;
+	position: relative;
+	font-size: 0.8725em;
+	text-transform: capitalize;
+}
+.search_box form input[type="submit"] {
+	-webkit-appearance: none;
+	background: url(../images/search.png) no-repeat 10px 5px;
+	padding: 6px 0px;
+	border: none;
+	cursor: pointer;
+	width: 15%;
+	line-height: 1.5em;
+	outline: none;
+	position: absolute;
+	right: 0px;
+}
+.h_search input[type="submit"]:hover {
+	background:url(../images/search_h.png) no-repeat 10px 5px;
+}
+.h_icon
+{
+	float: right;
+	width: 10%;
+	background-color:#00A69B;
+}
+
+.icon1:after {
+	clear: both;
+}
+.icon1 li {
+	text-align:right;
+	padding-right:15px;
+	position: relative;
+}
+.icon1 li:last-child{
+	border-right:none;
+}
+.icon1 li:hover > a {
+	color: #fafafa;
+}
+*html .icon1 li a:hover { /* IE6 only */
+	color: #fafafa;
+}
+.icon1 ul {
+	width:300px;
+	margin: 20px 0 0 0;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top:45px;
+	z-index: 1;
+	right: 5px;
+	background: #ffffff;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 6px #777777;
+	-webkit-box-shadow: 0px 2px 6px #777777;
+	-moz-box-shadow: 0px 2px 6px #777777;
+	-o-box-shadow: 0px 2px 6px #777777;
+}
+.icon1 li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin: 0;
+}
+
+.icon1 ul li:first-child > a:after {
+	content: '';
+	position: absolute;
+	right: 3%;
+	top: -30px;
+	border-left: 10px solid transparent;
+	border-right:10px solid transparent;
+	border-bottom:10px solid #f0f0f0;
+}
+.icon1 ul ul li:first-child a:after {
+	left: -100px;
+	top: 0%;
+	margin-top: 20px;
+	border-left: 0;	
+	border-bottom:20px solid transparent;
+	border-top: 20px solid transparent;
+	border-right:20px solid #323757;
+}
+
+.c1{
+	background:url(../images/cart.png); no-repeat 0px 0px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.sub-icon1 ul li h3{
+	text-align:center;
+	font-size: 1.2em;
+	color: #4CCFC1;
+	margin-bottom: 4%;
+}
+.sub-icon1 ul li p{
+	font-family:"Times New Roman", Times, serif, sans-serif;
+	text-align:center
+	font-size: 0.8925em;
+	color: #555555;
+	line-height: 1.8em;
+}
+.sub-icon1.list{
+	padding: 20px 10px;
+	z-index: 999;
+}
+/*css nút tìm kiếm*/
+#hinhnen
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+
+	
+}
+
+
+
+#header
+{
+	background-repeat:no-repeat;
+	height:410px;
+	clear:both;
+	
+	
+}
+*
+{ 
+	margin: 0px; 
+	padding: 0px;
+	
+}
+li
+{ 
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 16px;
+}
+
+#menu
+{ 
+	background: #00A69B; 
+	margin-top: 30px;
+	margin:auto;
+	position:fixed;
+	z-index:1;
+	width:80%;
+	background: #00A69B;
+	height:40px;
+	width:90%; 
+
+}
+#ul{ margin-left:100px;}
+#menu1
+{ 
+	width:100%;
+	position:fixed;
+	background: #00A69B; 
+	
+	z-index:1;
+	float: left;
+
+	
+}
+#menu>ul>li
+{ 
+	float:left;
+	text-align:left;
+	padding: 11px 30px; 
+	position: relative; 
+	border-right: 1px dotted #ACACAC;
+	
+
+}
+#menu>ul>li:last-child
+{ 
+	border-right: none;
+}
+#menu>ul>li>ul
+{ 
+	display: none; 
+	position: absolute; 
+	background: #00A69B;
+	top: 41px;width: 150px; 
+	left: 0px;
+}
+#menu>ul>li:hover ul
+{ 
+	display: block;
+}
+#menu ul li:hover
+{ 
+	background: #5F5C5C; 
+	transition: all 0.25s;
+}
+#menu>ul>li>ul>li
+{ 
+	padding: 5px 10px;
+	text-align:left;
+}
+#menu>ul>li>ul>li
+{ 
+	border-bottom: 1px dotted #ACACAC;
+}
+#content
+{
+	width:1000px;
+	/*margin-bottom:2%;
+	margin-left:-1,8px;
+	margin-right:-1px;*/
+	margin:auto;
+	height:100%;
+	
+}
+
+#footer
+{
+	clear:both;
+	height:250px;
+	background:#FFF;
+	width:100%;
+	margin-top:20px;
+	text-align:center;
+	padding-top:1%;
+	
+}
+
+#cart
+{
+	
+	float:right;
+	border-left:1px dotted #ACACAC;
+	height:40px;
+	width:150px;
+	background-color:#00A69B;
+	position:fixed;
+	right:0;
+	z-index:1;
+	text-align:right;
+	padding-right:20px;
+	line-height:40px;
+
+	
+}
+
+
+
